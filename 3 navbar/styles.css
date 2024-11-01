@@ -1,0 +1,33 @@
+.parent {
+    display: flex;
+    height: 500px;
+    width: 600px;
+    
+    border: solid;
+    justify-content: center;
+   
+ 
+    /* Improved background image handling */
+    background-image: url(https://img.freepik.com/premium-photo/tesla-with-night-background_663102-294.jpg)
+
+   
+}
+    .na{
+list-style-type: none;
+
+
+display: flex;
+gap: 15px;
+color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    width: 42px;
+    height: 34px;
+    justify-self:flex-start;
+    align-self: flex-start;
+}
